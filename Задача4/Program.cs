@@ -12,12 +12,12 @@ if(max>number2)
 {
     if(max>number3)
     {
-        Console.WriteLine(max);
+        Console.WriteLine("Максимальное число " + max);
     }
     else
     {
         max=number3;
-        Console.WriteLine(max);
+        Console.WriteLine("Максимальное число " + max);
     }
 }
 else
@@ -25,11 +25,11 @@ else
     max=number2;
     if(max>number3)
     {
-        Console.WriteLine(max);
+        Console.WriteLine("Максимальное число " + max);
     }
     else
     {
         max=number3;
-        Console.WriteLine(max);
+        Console.WriteLine("Максимальное число " + max);
     }
 }
