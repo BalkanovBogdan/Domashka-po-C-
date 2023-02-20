@@ -7,7 +7,7 @@ while(a<=N)
 {
     if(a%2==0)
     {
-        Console.WriteLine(a);
+        Console.Write( $"{a},");
          a++;
     }
     else
